@@ -1,0 +1,37 @@
+<head>
+<style type="text/css">
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+a:link,a:visited{
+display:block;
+front-weight:bold;
+color:white;
+background-color:black;
+width:237px;
+text-align:center;
+padding:30px;
+text-transform:uppercase;
+text-decoration:none;
+}
+
+a:hover,a:active{
+background-color:white;
+}
+li{
+float: right;}
+</style><title>My Personal Web Page </title></head>
+	
+	<ul>
+	<li><a href="#nba">NBA</a></li>
+	<li><a href="#nhl">NHL</a></li>
+	<li><a href="#nfl">NHF</a></li>
+	<li><a href="#mlb">MLB</a></li>
+	</ul>
+
+</ul>
+</body>
+</head>

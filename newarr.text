@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>NEW ARRIVALS</title>
+</head>
+<style>
+.cap1 {
+    	position: relative;
+   	width: 23%;
+	margin-left: 2cm;
+}
+.image {
+  	 opacity: 1;
+ 	 display: block;
+	  width: 100%;
+	  height: auto;
+	  transition: .5s ease;
+	  backface-visibility: hidden;
+}
+.cap2 {
+ 	 transition: .5s ease;
+ 	 opacity: 0;
+ 	 position: absolute;
+ 	 top: 50%;
+ 	 left: 50%;
+ 	 transform: translate(-50%, -50%);
+ 	 -ms-transform: translate(-50%, -50%)
+}
+.cap1:hover .image {
+ 	 opacity: 0.3;
+}
+.cap1:hover .cap2 {
+ 	 opacity: 1;
+}
+.text {
+ 
+ 	 color: black;
+ 	 font-size: 16px;
+	font:  bold 15px arial, sans-serif;
+	text-align: center;
+
+}
+.cap3 {
+    	position: relative;
+   	width: 23%;
+	margin-left: 2cm;
+}
+.image1 {
+  	opacity: 1;
+ 	 display: block;
+	  width: 100%;
+	  height: auto;
+	  transition: .5s ease;
+	  backface-visibility: hidden;
+}
+.cap4 {
+ 	 transition: .5s ease;
+ 	 opacity: 0;
+ 	 position: absolute;
+ 	 top:50%;
+ 	 left:50%;
+ 	 transform: translate(-50%, -50%);
+ 	 -ms-transform: translate(-50%, -50%)
+}
+.cap3:hover .image1 {
+ 	 opacity: 0.3;
+}
+.cap3:hover .cap4 {
+ 	 opacity: 1;
+}
+.text1 {
+ 
+ 	 color: black;
+ 	 font-size: 16px;
+	font:  bold 15px arial, sans-serif;
+	text-align: center;
+
+}li a:hover {
+    background-color:  gray;
+}
+ul {
+    	list-style-type: none;
+   	 margin: 0;
+  	  padding: 0;
+   	 overflow: hidden;
+   	 background-color: black;
+	 text-align: right;
+	font:  bold 15px arial, sans-serif;	
+}
+li {
+ 	  float: left;
+}
+li a {
+  	  display: block;
+   	 color: white;
+  	  text-align: center;
+  	  padding: 14px 16px;
+  	  text-decoration: none;
+}
+.nba{
+   
+	margin-top: 1cm;
+	margin-right: 2cm;
+	margin-left: 2cm;
+	margin-bottom: .5cm;
+	text-align: center;
+}
+
+</style>
+<body>
+
+<ul>
+	<li><img src="logo.png"  /></li>
+	<li><a href="index.html"">Home</a></li>
+  	<li><a class="active" href="nbapage.html">NBA</a></li>
+  	<li><a href="nhlpage.html">NHL</a></li>
+  	<li><a href="nflpage.html">NFL</a></li>
+  	<li><a href="mlbpage.html">MLB</a></li>
+	
+</ul>
+</body>
+<div class=nba>
+  	<img src="banner-new-arrivals (1).jpg" /> 
+	<br>
+	<img src="newarrr.png" /> 
+  	    
+ </div>
+<div class=cap1>
+	<img src="784_alt_.jpg.jpg" alt="Avatar" class="image"/>
+<div class=cap2>
+	    <div class="text"><p>Golden State Warriors</p>
+			<p>9FIFTY Cap</p>
+			</div>
+  </div>
+</div>
+<div class=cap3>
+	<img src="1000_alt_.jpg.jpg" alt="Avatar" class="image1"/>
+<div class=cap4>
+	    <div class="text1"><p>Golden State Warriors</p>
+			<p>9FIFTY Cap</p>
+			</div>
+  </div>
+</div>
+
+</html>
